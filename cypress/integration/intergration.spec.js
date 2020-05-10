@@ -8,12 +8,12 @@ context("Skynet", () => {
   it("should render key website elements", () => {
     cy.contains("Build a Free Internet");
     cy.contains("Upload your Files");
-    cy.contains("Have a Skylink?");
+    cy.contains("Have a Publink?");
   });
 
   it("should be able to upload a file", () => {
     cy.server();
-    cy.route("POST", "/skynet/skyfile").as("upload");
+    cy.route("POST", "/pubaccess/pubfile").as("upload");
 
     const fileName = "check.json";
 
