@@ -90,6 +90,10 @@ To check standard err/standard out: `journalctl --user-unit spd`. In addition yo
 - `-r` to view journal from the newest entry
 - `-f` to follow and `-n INTEGER` to specify number of lines
 
+To resolve selinux issues: 
+`sudo grep nginx /var/log/audit/audit.log | grep denied | audit2allow -M nginxlocalconf`
+`sudo semodule -i nginxlocalconf.pp`
+
 ## Portal Setup
 
 When `spd` is done syncing, create a new wallet and unlock the wallet.
