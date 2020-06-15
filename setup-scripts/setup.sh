@@ -21,7 +21,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 # Apt installations.
 sudo apt-get update
 sudo apt-get -y install ufw tmux ranger htop nload nginx certbot \
-  python-certbot-nginx nodejs gcc g++ make yarn git vim
+  python3-certbot-nginx nodejs gcc g++ make yarn git vim
 
 # terminfo for alacritty terminal via ssh
 # If you don't use the alacritty terminal you can remove this step.
