@@ -117,6 +117,10 @@ following command:
 Now your node will begin making 10 contracts per block with many hosts so it can
 potentially view the whole network's files.
 
+Add your portal to the pubaccess list:
+
+`curl -A "ScPrime-Agent" --user "":yourapipassword --data '{"add" : [{"address":"scp.techandsupply.ca:443","public":true}]}' "localhost:4280/pubaccess/portals"`
+
 ## Running the Portal
 
 Make sure you have [nodejs](https://nodejs.org/en/download/package-manager/) and [yarn](https://yarnpkg.com/getting-started/install) installed.
