@@ -94,6 +94,9 @@ To resolve selinux issues:
 `sudo grep nginx /var/log/audit/audit.log | grep denied | audit2allow -M nginxlocalconf`
 `sudo semodule -i nginxlocalconf.pp`
 
+To get base64 apipassword for nginx:
+`echo -n ":"$(cat  ~/.scprime/apipassword) | base64`
+
 ## Portal Setup
 
 When `spd` is done syncing, create a new wallet and unlock the wallet.
