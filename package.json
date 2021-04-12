@@ -1,8 +1,8 @@
 {
-  "name": "scprime-publicwebportal",
-  "description": "Scprime public portal",
+  "name": "publicwebportal",
+  "description": "Public portal",
   "version": "1.0.1",
-  "author": "Scprime corp",
+  "author": "EvilRedHorse",
   "dependencies": {
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
@@ -43,9 +43,7 @@
     "prettier": "^2.0.5"
   },
   "keywords": [
-    "scprime",
     "publicportal",
-    "Scprime corp",
     "blockchain",
     "decentralized",
     "cloud storage"
@@ -73,9 +71,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scpcorp/skynet-webportal"
+    "url": "https://github.com/evilredhorse/pubaccess-webportal"
   },
   "bugs": {
-    "url": "https://github.com/scpcorp/skynet-webportal/issues"
+    "url": "https://github.com/evilredhorse/pubaccess-webportal/issues"
   }
 }
