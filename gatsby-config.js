@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Public Portals`,
     description: `Public Portals are a decentralized file sharing and content distribution protocol.`,
-    author: `scpcorp`,
+    author: `EvilRedHorse`,
     siteUrl: `https://scp.techandsupply.ca`,
-    image: `https://scprime.hashpool.eu/icons/icon-512x512.png`,
+    image: `https://scp.techandsupply.ca/icons/icon-512x512.png`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Public Portal`,
-        short_name: `scpportal`,
+        short_name: `portal`,
         start_url: `/`,
         background_color: `#f1f7f2`,
         theme_color: `#f1f7f2`,
