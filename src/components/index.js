@@ -12,9 +12,9 @@ import LoadingSpinner from "./LoadingSpinner/LoadingSpinner";
 
 //import HomeTop from "./HomeTop/HomeTop";
 import HomeUpload from "./HomeUpload/HomeUpload";
-import HomeBuilt from "./HomeBuilt/HomeBuilt";
+//import HomeBuilt from "./HomeBuilt/HomeBuilt";
 //import HomeSamples from "./HomeSamples/HomeSamples";
-import HomeStay from "./HomeStay/HomeStay";
+//import HomeStay from "./HomeStay/HomeStay";
 //import HomeNetwork from "./HomeNetwork/HomeNetwork";
 
 export {
@@ -22,13 +22,13 @@ export {
 //  HomeTop,
   HomeUpload,
   Button,
-  HomeBuilt,
+//  HomeBuilt,
 //  CodeExamples,
 //  Sample,
 //  HomeSamples,
-  HomeStay,
+//  HomeStay,
 //  SocialLink,
-  CircleIcon,
+//  CircleIcon,
 //  HomeNetwork,
 //  FAQ,
   UploadFile,
