@@ -32,7 +32,7 @@ const CustomForm = ({ status, message, onValidated, light, id }) => {
       />
       <div className="home-form-stay-existing">
         <input ref={(node) => (user = node)} type="checkbox" id={checkboxId} />
-        <label htmlFor={checkboxId}>I have previous experience using ScPrime</label>
+        <label htmlFor={checkboxId}>I have previous experience using Public Portals</label>
       </div>
       <button className="button" onClick={submit} id={submitId}>
         Get Updates
