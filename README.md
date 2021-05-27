@@ -23,8 +23,8 @@ Use `yarn build` to compile the application to `/public` directory.
 
 You can use the below build parameters to customize your application. You can use them both on development and production builds.
 
-- development example `GATSBY_API_URL=https://siasky.dev yarn start`
-- production example `GATSBY_API_URL=https://siasky.net yarn build`
+- development example `GATSBY_API_URL=https://techandsupply.ca yarn start`
+- production example `GATSBY_API_URL=https://techandsupply.ca yarn build`
 
 #### List of available parameters
 
